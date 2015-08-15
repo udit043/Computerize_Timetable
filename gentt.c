@@ -303,7 +303,7 @@ void genTT()
 //-----------------------------------------------------------------------------------
      textcolor(9);printf("Available Teacher's \n");textcolor(15);
      char acline[80];char teachini[40]="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-     int init;int ini1=0;int b=0;int b1=0;
+     int init,nul;int ini1=0;int b=0;int b1=0;
      FILE *p;
      p = fopen("teacher.txt","r");
      if(p==NULL) {clrscr();system("cls");textcolor(10);printf("\n                           File is missing\n");textcolor(11);printf("                Press any key to go back to Admin menu\n");getch();admin();}
@@ -311,6 +311,8 @@ void genTT()
      while (!feof(p))
      {
          b=b+1;
+         for(nul=0;nul<80;nul++)
+         acline[nul]=NULL;
          fgets(acline,80,p);
          for(init=1;acline[init]!=0;init++)
          {
