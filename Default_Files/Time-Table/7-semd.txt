@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | ML  -NT  | ES  -RT  | SM  -SK  | ES  -MS  | ML  -SJ  |
+   | Tuesday   | E1  -MS  | SM  -RT  | ES  -CV  | E1  -NT  | ES  -AF  |
+   | Wednesday | ML  -CV  | ES  -RT  | SM  -SK  | E1  -PJ  | WMC -AF  |
+   | Thursday  | WMC -MS  | E1  -SJ  | SM  -SK  | ES  -RN  | ML  -CV  |
+   | Friday    | ES  -NT  | SM  -RN  | E1  -RT  | WMC -MS  | E1  -RT  |
+    ------------------------------------------------------------------
