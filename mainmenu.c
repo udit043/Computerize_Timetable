@@ -102,7 +102,7 @@ void mainmenu()
               for(ex=0;ex<5;ex++)
               {
                  clrscr();//system("cls");
-                 textcolor(11);printf("Thank you for viewing\n");textcolor(15);printf("Project by - ");textcolor(10+ex);printf("\n\nShubham Jaiswal\nUdit Raikwar\nYash Awidra\nRajat Singh Verma\n");
+                 textcolor(11);printf("Thank you for viewing\n");textcolor(15);printf("Project by - ");textcolor(10+ex);printf("\n\nUdit Raikwar\n");
                  Sleep(600);
               }
             }
