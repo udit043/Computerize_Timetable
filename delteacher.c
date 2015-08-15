@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+#include <coni.h>
 #include <windows.h>
 #include <string.h>
 
@@ -17,7 +17,7 @@ void delteacher()
 
     p = fopen("teacher.txt","r");
     if(p==NULL) {clrscr();system("cls");textcolor(10);printf("\n                           File is missing\n");textcolor(11);printf("                Press any key to go back to Main menu\n");getch();mainmenu();}
-    fseek(p,0,SEEK_SET);int nl;
+    fseek(p,0,SEEK_SET);int nl,lnbr=0;
     while (!feof(p))
     {
         for(nl=0;nl<80;nl++)
@@ -27,9 +27,14 @@ void delteacher()
         else
         {
             b=b+1;
-            for(display=0;acline[display]!=0;display++)
+            for(display=0;display<strlen(acline);display++)
             {
-               if(acline[display]!='!')
+               if((display+1)==(strlen(acline)))
+                {
+                   if(!(acline[display]=='\n'))
+                   {lnbr=1;} 
+                }
+			   if(acline[display]!='!')
                {
                    textcolor(15);printf("%c",acline[display]);
                }
@@ -52,7 +57,10 @@ void delteacher()
         }   
     }
     fclose(p);
-    textcolor(10);printf("\n\nNumber of teacher is ");textcolor(14);printf("%d \n",b);
+    if(lnbr==1)
+    {textcolor(10);printf("\n\nNumber of teacher is ");textcolor(14);printf("%d \n",b);}
+    else
+    {textcolor(10);printf("\nNumber of teacher is ");textcolor(14);printf("%d \n",b);}
 
     int i=1;int j=0;char cond[]="yes";char op3[3];
     textcolor(12);printf("\nChoose Teacher's number to delete : ");
@@ -158,7 +166,7 @@ void delteacher()
     textcolor(15);
     p=fopen("teacher.txt","r");
     if(p==NULL) {clrscr();system("cls");textcolor(10);printf("\n                           File is missing\n");textcolor(11);printf("                Press any key to go back to Main menu\n");getch();mainmenu();}
-    fseek(p,0,SEEK_SET);b=0;
+    fseek(p,0,SEEK_SET);b=0;lnbr=0;
     while (!feof(p))
     {
         for(nl=0;nl<80;nl++)
@@ -170,6 +178,11 @@ void delteacher()
             b=b+1;
             for(display=0;acline[display]!=0;display++)
             {
+            	if((display+1)==(strlen(acline)))
+                {
+                   if(!(acline[display]=='\n'))
+                   {lnbr=1;} 
+                }
                if(acline[display]!='!')
                {
                    textcolor(15);printf("%c",acline[display]);
@@ -193,7 +206,11 @@ void delteacher()
         }   
     }
     fclose(p);
-    textcolor(10);printf("\nNumber of teacher is ");textcolor(14);printf("%d \n",b);
+    if(lnbr==1)
+    {textcolor(10);printf("\n\nNumber of teacher is ");textcolor(14);printf("%d \n",b);}
+    else
+    {textcolor(10);printf("\nNumber of teacher is ");textcolor(14);printf("%d \n",b);}
+    
     textcolor(15); 
     printf("\nPress any key to return to admin menu");
     getch();
