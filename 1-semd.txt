@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | CH  -NT  | CS  -AF  | ED  -PJ  | M1  -CV  | BEEE-RN  |
+   | Tuesday   | ED  -RT  | BEEE-SK  | M1  -MS  | CH  -MS  | CS  -SK  |
+   | Wednesday | M1  -RT  | ED  -RN  | CS  -CV  | BEEE-NT  | CH  -AF  |
+   | Thursday  | CS  -PJ  | CH  -CV  | BEEE-RN  | ED  -RT  | M1  -SK  |
+   | Friday    | BEEE-NT  | M1  -CV  | CH  -RN  | CS  -RT  | ED  -SK  |
+    ------------------------------------------------------------------ 
