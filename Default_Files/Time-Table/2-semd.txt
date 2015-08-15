@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | C   -PJ  | CE  -AF  | M2  -NT  | PHY -CV  | MECH-RN  |
+   | Tuesday   | C   -PJ  | CE  -AF  | M2  -NT  | PHY -CV  | MECH-RN  |
+   | Wednesday | C   -PJ  | CE  -AF  | M2  -NT  | PHY -CV  | MECH-RN  |
+   | Thursday  | C   -PJ  | CE  -AF  | M2  -NT  | PHY -CV  | MECH-RN  |
+   | Friday    | C   -PJ  | CE  -AF  | M2  -NT  | PHY -CV  | MECH-RN  |
+    ------------------------------------------------------------------
