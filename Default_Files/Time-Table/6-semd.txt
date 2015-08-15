@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | MI  -AF  | ACD -CV  | MIS -RN  | ECG -RT  | IWT -SK  |
+   | Tuesday   | ECG -RT  | MIS -CV  | ACD -NT  | MI  -AF  | ECG -PJ  |
+   | Wednesday | MIS -RN  | ACD -CV  | MI  -AF  | ACD -PJ  | IWT -MS  |
+   | Thursday  | ECG -SK  | MIS -RT  | ACD -RN  | MI  -NT  | ACD -AF  |
+   | Friday    | MIS -PJ  | ECG -NT  | IWT -SJ  | ECG -MS  | MIS -SK  |
+    ------------------------------------------------------------------
