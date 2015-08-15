@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | ESEM-RT  | ITC -SK  | OS  -RN  | SE  -CV  | CN  -NT  |
+   | Tuesday   | ITC -AF  | OS  -PJ  | CN  -MS  | ESEM-SK  | ITC -RT  |
+   | Wednesday | ITC -RN  | OS  -RT  | ESEM-CV  | SE  -RT  | CN  -SK  |
+   | Thursday  | ESEM-RN  | SE  -NT  | ITC -AF  | OS  -RT  | CN  -RN  |
+   | Friday    | SE  -NT  | ITC -RT  | ESEM-MS  | OS  -SJ  | CN  -RJ  |
+    ------------------------------------------------------------------
