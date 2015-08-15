@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | M3  -MS  | EDC -SK  | OOM -RT  | DSA -RN  | EEES-CV  |
+   | Tuesday   | OOM -NT  | EEES-CV  | DSA -RN  | M3  -RT  | EDC -SK  |
+   | Wednesday | DSA -MS  | OOM -SJ  | EDC -NJ  | EEES-RJ  | M3  -SJ  |
+   | Thursday  | EDC -MS  | M3  -SK  | EEES-RT  | OOM -RN  | DSA -CV  |
+   | Friday    | EEES-PJ  | DSA -AF  | M3  -NT  | EDC -CV  | OOM -RN  |
+    ------------------------------------------------------------------
