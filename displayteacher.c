@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <conio.h>
+#include <coni.h>
 #include <windows.h>
 
 void admin();
@@ -28,7 +28,7 @@ void displayteacher()
         textcolor(15);
 
         FILE *p;
-        char acline[80];int nl;
+        char acline[80];int nl,lnbr=0;
         p = fopen("teacher.txt","r");
         if(p==NULL) {clrscr();system("cls");textcolor(10);printf("\n                           File is missing\n");textcolor(11);printf("                Press any key to go back to Admin menu\n");getch();admin();}
         fseek(p,0,SEEK_SET);
@@ -40,11 +40,17 @@ void displayteacher()
           if(!(strlen(acline)>8)) { }
           else
           {
-            
-            b=b+1;
-            for(display=0;acline[display]!=0;display++)
+
+            b=b+1;//printf("%d",strlen(acline));
+            //for(display=0;acline[display]!=0;display++)
+            for(display=0;display<strlen(acline);display++)
             {
-               if(acline[display]!='!')
+                if((display+1)==(strlen(acline)))
+                {
+                   if(!(acline[display]=='\n'))
+                   {lnbr=1;} 
+                }
+			   if(acline[display]!='!')
                {
                    textcolor(15);printf("%c",acline[display]);
                }
@@ -64,12 +70,15 @@ void displayteacher()
                    {gotoxy(76,4+b);textcolor(11);printf("|");eli=0;}
                }
             }
-          }   
+          }
+		  //printf("\n");   
         }
         fclose(p);
-        printf("\n");
-        textcolor(10);printf("\nNumber of teacher is ");textcolor(14);printf("%d \n",b);
-
+        //printf("\n");
+        if(lnbr==1)
+        {textcolor(10);printf("\n\nNumber of teacher is ");textcolor(14);printf("%d \n",b);}
+        else
+        {textcolor(10);printf("\nNumber of teacher is ");textcolor(14);printf("%d \n",b);}
     }
    textcolor(15); 
    printf("\nPress any key to return to Admin menu");
