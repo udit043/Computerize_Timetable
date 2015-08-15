@@ -1,0 +1,8 @@
+    __________________________________________________________________
+   | Day       | Period 1 | Period 2 | Period 3 | Period 4 | Period 5 |
+   | Monday    | CA  -SK  | DS  -MS  | POC -RT  | ADA -RN  | DBMS-CV  |
+   | Tuesday   | CA  -NT  | DS  -AF  | POC -PJ  | ADA -MS  | DBMS-SK  |
+   | Wednesday | CA  -RT  | DS  -RN  | POC -CV  | ADA -NJ  | DBMS-RJ  |
+   | Thursday  | CA  -SJ  | DS  -MS  | POC -RN  | ADA -SK  | DBMS-RT  |
+   | Friday    | CA  -SJ  | DS  -PJ  | POC -SK  | ADA -RN  | DBMS-CV  |
+    ------------------------------------------------------------------ 
