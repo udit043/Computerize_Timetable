@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <windows.h>
-#include <string.h>
 
 void genTT();
 void addteacher();
